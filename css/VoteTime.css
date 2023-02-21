@@ -1,0 +1,29 @@
+.voteTime {
+    /* background-color: aquamarine;
+    display: inline-block;
+    width: 100%; */
+    margin-right: -20px;
+    overflow: hidden;
+    background-color: #666666;
+    /* padding-top: 15px; */
+    margin-top: 10px;
+}
+
+.voteTimeOption {
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+    box-sizing: border-box;
+    background-clip: content-box;
+    text-align: center;
+    color: white;
+    font-size: 3vmin;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+.voteTimeOptions div:focus {
+    background-color: azure;
+    color: black;
+    text-decoration: underline;
+}

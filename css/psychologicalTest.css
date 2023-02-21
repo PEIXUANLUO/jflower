@@ -1,0 +1,218 @@
+:root {
+  --mainColor-white: #FEFCFC;
+  --mainColor-blue: #162F3A;
+  --subColor-blue: #2D5363;
+  --subColor-lightBlue: #9BC9DD;
+  --mainColor-green: #64C676;
+}
+
+#scoreId {
+  background: #fff;
+  color: 000;
+  font-size: 18px;
+  width: 200px;
+  margin: 0 auto;
+  font-weight: 600;
+  height: 40px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz {
+  width: 975px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.question {
+  background-color: var(--mainColor-green);
+  color: white;
+  padding: 10px;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+
+#voteAnswer {
+  margin-top: 50px;
+  width: 80%;
+  margin-left: 10%;
+  background: #ffffff;
+  border: 2px solid var(--mainColor-green);
+  min-height: 50px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  display: flex;
+  color: #000000;
+  align-items: center;
+  padding-left: 10px;
+
+}
+
+#voteAnswer div:focus {
+  background-color: azure;
+  color: black;
+  text-decoration: underline;
+}
+
+
+
+.answers {
+  display: inline;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 5000px;
+}
+
+.answer-text {
+  font-weight: 600px;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  color: red;
+  background-color: #2D5363;
+}
+
+
+#test-next-button {
+  margin: 10px auto;
+  color: #fdfdfd;
+  background: var(--mainColor-green);
+  width: 300px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14px 75px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  
+}
+
+#testImgPlace {
+  background: url("../img/pexels-hans-schoevers-5777987.jpg");
+  /* background-attachment: fixed; */
+  background-size: cover;
+  height: 500px;
+  max-height: 60%;
+  max-width: 100%;
+
+}
+
+#testAnswerWord1 {
+  display: block;
+  background-color: white;
+  border-radius: 50px;
+  margin-left: 10%;
+  font-size: 3vmin;
+  color: #64C676;
+  text-decoration: underline;
+
+}
+
+.rowContainer {
+  background-color: #64C676;
+  border-radius: 50px;
+  height: 50%;
+  overflow: hidden;
+}
+
+
+
+#testAnswerWords {
+  position: right;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+
+
+
+}
+
+#title p {
+  display: inline;
+}
+
+#animalName {
+  font-size: 5vmin;
+}
+
+#animalHashtag {
+  font-size: 4vmin;
+  margin-left: 50px;
+}
+
+#animalDescription {
+  font-size: 3vmin;
+}
+
+.testAnswerRowSave {
+  padding: 50px 25px 50px 25px;
+
+}
+
+#saveImage {
+  border: 3px solid black;
+  border-radius: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3vmin;
+  align-items: center;
+
+}
+
+#btnToMap {
+  border: 3px solid black;
+  border-radius: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3vmin;
+  align-items: center;
+
+}
+
+#shareImage {
+  border: 3px solid black;
+  border-radius: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3vmin;
+
+}
+
+#shareImage * {
+  display: inline;
+}
+
+.testIcons svg {
+  width: 3vmin;
+  margin-left: 15px;
+}
+
+.rowSave div:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 557px) {
+
+
+  .rowContainer {
+    margin-left: 50px;
+  }
+
+
+}
+
+@media only screen and (min-width: 557px) {
+
+  .testIcons svg {
+    width: 25px;
+    margin-left: 8px;
+  }
+}

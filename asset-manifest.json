@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jflower/static/css/main.ababef68.css",
+    "main.js": "/jflower/static/js/main.de9eb753.js",
+    "static/js/787.bfb85fac.chunk.js": "/jflower/static/js/787.bfb85fac.chunk.js",
+    "index.html": "/jflower/index.html",
+    "main.ababef68.css.map": "/jflower/static/css/main.ababef68.css.map",
+    "main.de9eb753.js.map": "/jflower/static/js/main.de9eb753.js.map",
+    "787.bfb85fac.chunk.js.map": "/jflower/static/js/787.bfb85fac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ababef68.css",
+    "static/js/main.de9eb753.js"
+  ]
+}
